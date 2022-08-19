@@ -13,7 +13,6 @@ fetch(
   }
 ).then(function (response) {
   response.json().then(function (data) {
-
     const values = data.values;
 
     for (var i = 0; i < values.length; i++) {
@@ -22,7 +21,7 @@ fetch(
         var producto = document.createElement("div");
         producto.className = "menu-item";
 
-        producto.innerHTML = `${values[i][0]}<span class="precio">${values[i][1]}</span>`;
+        producto.innerHTML = `<div class="index-item"><span class="item indice">${i+1}</span></div><span class="item producto">${values[i][0]}</span><span class="item precio">${values[i][1]}</span>`;
  
         lista.appendChild(producto);
      }
