@@ -1,0 +1,24 @@
+body { /* Aplica a todo el body*/
+  background-color: #DBECF2;
+  font-family: 'Roboto', sans-serif;
+  padding: 20px 80px 20px 80px;
+}
+
+h1 {
+  background-color: #FFFFFF;
+  color: #000000;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.menu-item {
+  padding: 10px 50px 10px 50px;
+}
+
+.menu-item:hover {
+  background-color: #ABABF0;
+}
+
+.precio {
+  float: right;
+}
